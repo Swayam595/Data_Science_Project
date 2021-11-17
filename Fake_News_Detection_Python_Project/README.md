@@ -39,7 +39,7 @@ Intuitively, passive signifies that if the classification is correct, we should 
 
 ## Results
 
-The model outputs accuracy of ~97% which is decent enough. We have less than 1.5% false positive and false negative classification each. Check the confusion matrix and classification report below:
+The model outputs accuracy of ~96% which is decent enough. We have less than 1.5% false positive and false negative classification each. Check the confusion matrix and classification report below:
 
 ![](results.JPG)
 
