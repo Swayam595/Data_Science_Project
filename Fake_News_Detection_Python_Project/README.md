@@ -24,13 +24,13 @@ We use TfIdf Vectorizer to convert our text strings to numerical representations
 Tf-Idf Vectorizer is a common algorithm to transform text into meaningful representation of numbers. It is used to extract features from text strings based on occurrence.
 
 We assume that higher number of repetitions of a word would mean greater importance in the given text. We normalize the occurrence of the word with the size of the document and hence call it term-frequency.
-Numerical definition:
+Numerical definition:<br/>
 `tf(w) = doc.count(w) / total words in the doc`
 
-While computing term-frequency, each term is given equal weightage. There may be words which have high occurrence across the documents and hence would contribute less in deriving the meaning of document. Such words for example 'a', 'the' etc. might suppress the weights of more meaningful words. To reduce this effect, Tf is discounted by a factor called inverse document frequency.
+While computing term-frequency, each term is given equal weightage. There may be words which have high occurrence across the documents and hence would contribute less in deriving the meaning of document. Such words for example 'a', 'the' etc. might suppress the weights of more meaningful words. To reduce this effect, Tf is discounted by a factor called inverse document frequency. <br/>
 `idf(w) = log(total_number_of_documents / number_of-documents_containing_word_w)`
 
-Tf-Idf is then computed by taking a product of Tf and Idf. More important words would get a higher tf-idf score.
+Tf-Idf is then computed by taking a product of Tf and Idf. More important words would get a higher tf-idf score. <br/>
 `tf-idf(w) = tf(w) * idf(w)`
 
 ### [Passive Aggressive Classifier](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf)
