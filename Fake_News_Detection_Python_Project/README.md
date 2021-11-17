@@ -37,7 +37,7 @@ Tf-Idf is then computed by taking a product of Tf and Idf. More important words 
 The passive-aggressive algorithms are a family of algorithms for large-scale learning.
 Intuitively, passive signifies that if the classification is correct, we should keep the model, and, aggressive signifies that if the classification is incorrect, update the model to adjust to more misclassified examples. Unlike most others, it does not converge, rather it makes updates to correct the loss.
 
-Detailed algortime and more details are present on the notebook.
+Detailed algorithm and more details are present on the notebook.
 
 ## Results
 
